@@ -1,0 +1,1378 @@
+# KAROBAR SAATHI AI
+## Complete Product Requirements Document (PRD)
+### Version 1.0 — Pakistan Universal Business Operating System
+
+**Product Name:** KAROBAR SAATHI AI  
+**Former Working Name:** HISAABGUARD AI  
+**Tagline:** Har Karobar Ka Digital Saathi  
+**Product Category:** Multi-Tenant SaaS, AI Business Management, POS, Accounting, Inventory, Payments  
+**Primary Market:** Pakistan  
+**Future Market:** International expansion  
+**Platforms:** Web Application, Android, iOS, Admin Dashboard, Business Owner Dashboard
+
+---
+
+# 1. Executive Summary
+
+KAROBAR SAATHI AI is a universal AI-powered business operating system designed for businesses of different sizes and industries across Pakistan.
+
+The platform will allow a small shopkeeper, wholesaler, pharmacy owner, electronics dealer, clothing store, restaurant, distributor, or large enterprise to manage business operations through one intelligent platform.
+
+The system will combine:
+
+- Point of Sale (POS) and billing.
+- Digital Khata and customer credit management.
+- Accounting and financial reporting.
+- Inventory and supplier management.
+- Online and offline business operations.
+- Digital payments and payment reconciliation.
+- AI voice assistant for low-literacy users.
+- AI-based business analysis and recommendations.
+- Multi-branch and multi-employee management.
+- Industry-specific business modules.
+- Centralized Super Admin Dashboard.
+- Complete website and application content management.
+
+**Core vision:** A business owner should be able to operate most of their business using simple voice commands, even if they have limited computer knowledge.
+
+The platform must not be limited to one industry or one shop. It must support multiple independent businesses through a secure multi-tenant SaaS architecture.
+
+# 2. Product Objectives
+
+1. Digitize business operations for Pakistani businesses.
+2. Replace scattered registers, notebooks and manual calculations.
+3. Make accounting and inventory easy for non-technical users.
+4. Provide a reliable offline-first system.
+5. Integrate authorized digital payment providers.
+6. Use AI to identify business problems and opportunities.
+7. Support multiple industries without creating separate applications.
+8. Give business owners complete control over their own businesses.
+9. Give platform administrators centralized control over the SaaS platform.
+10. Build a scalable commercial product with subscription revenue.
+
+# 3. Target Users
+
+| User | Main requirements |
+|---|---|
+| Small shopkeeper | Simple billing, khata, stock, voice commands |
+| Wholesaler | Bulk orders, retailer accounts, credit limits |
+| Pharmacy owner | Medicine batches, expiry, stock and sales |
+| Electronics dealer | IMEI, serial numbers, warranty |
+| Clothing business | Sizes, colors, designs and exchanges |
+| Restaurant owner | Tables, kitchen orders, recipes and costing |
+| Distributor | Warehouses, delivery and retailer orders |
+| Enterprise | Multi-branch reporting, employee roles and controls |
+| Accountant | Ledgers, cash flow, expenses and reconciliation |
+| Cashier | Fast billing and controlled transactions |
+
+# 4. Business Registration and Onboarding
+
+## 4.1 Business registration
+
+Users must be able to register independently.
+
+Required fields:
+
+- Business name.
+- Owner name.
+- Mobile number.
+- Email address (optional where appropriate).
+- Password or supported authentication method.
+- City and business address.
+- Business category.
+- Business size.
+- Number of branches.
+- Preferred language.
+- Currency and timezone.
+- Subscription plan.
+
+## 4.2 Dynamic business onboarding
+
+After registration, the system asks the user to select their business type.
+
+Examples:
+
+- Kiryana / General Store.
+- Wholesale.
+- Pharmacy / Medical Store.
+- Electronics / Mobile Shop.
+- Clothing / Garments.
+- Restaurant / Cafe.
+- Hardware / Sanitary.
+- Cosmetics.
+- Auto Parts.
+- Stationery / Bookshop.
+- Salon / Services.
+- Other / Custom Business.
+
+The platform should automatically activate the relevant modules and settings.
+
+**Important:** Users must not receive an entirely separate application for every business category. All categories should use the same platform with configurable industry-specific modules.
+
+## 4.3 Guided onboarding
+
+Provide:
+
+- Urdu voice-guided setup.
+- Simple visual instructions.
+- Sample business data.
+- Product import through Excel.
+- Barcode scanning.
+- Step-by-step business setup.
+- Skip and complete later options.
+
+# 5. Universal Business Modules
+
+## 5.1 POS and Smart Billing
+
+Features:
+
+- Fast sales billing.
+- Barcode and QR scanning.
+- Product search.
+- Multiple payment methods.
+- Cash, credit and split payments.
+- Discounts and tax configuration.
+- Sales returns.
+- Refund approvals.
+- Printable receipts.
+- WhatsApp invoice sharing where supported.
+- Thermal printer support.
+- Daily cashier closing.
+- Shift management.
+- Invoice numbering.
+- Customer selection.
+- Offline transaction recording.
+
+## 5.2 Digital Khata and Udhaar Management
+
+A major core module.
+
+Features:
+
+- Customer accounts.
+- Supplier accounts.
+- Credit sales.
+- Payments received.
+- Partial payments.
+- Outstanding balances.
+- Due dates.
+- Credit limits.
+- Payment reminders.
+- Customer transaction history.
+- Supplier balances.
+- Account statements.
+- PDF and printable reports.
+- WhatsApp statement sharing with user consent.
+- Dispute and correction records.
+
+AI should identify customers with overdue balances and suggest appropriate follow-up actions.
+
+## 5.3 Inventory Management
+
+Features:
+
+- Product creation.
+- Product categories.
+- SKU and barcode.
+- Multiple units.
+- Purchase price.
+- Selling price.
+- Wholesale price.
+- Retail price.
+- Minimum stock.
+- Maximum stock.
+- Stock adjustments.
+- Stock transfers.
+- Damaged stock.
+- Expired stock.
+- Purchase returns.
+- Sales returns.
+- Supplier records.
+- Stock valuation.
+- Low-stock notifications.
+- Inventory history.
+
+Support units such as pieces, cartons, packets, kilograms, grams, litres and custom units.
+
+## 5.4 Accounting and Finance
+
+Features:
+
+- Daily income.
+- Daily expenses.
+- Cashbook.
+- Bank accounts.
+- Customer ledger.
+- Supplier ledger.
+- Profit and loss.
+- Gross profit.
+- Net profit.
+- Cash flow.
+- Receivables.
+- Payables.
+- Expense categories.
+- Financial summaries.
+- Financial period closing.
+- Export to PDF and Excel.
+
+Profit calculations must account for purchase costs, returns, discounts, expenses and relevant adjustments. Sales revenue must not be incorrectly presented as profit.
+
+## 5.5 Purchase and Supplier Management
+
+Features:
+
+- Supplier registration.
+- Purchase orders.
+- Purchase invoices.
+- Goods receiving.
+- Purchase returns.
+- Supplier credit.
+- Payment history.
+- Supplier performance.
+- Purchase price history.
+- Reorder suggestions.
+
+## 5.6 Customer Relationship Management
+
+Features:
+
+- Customer profiles.
+- Contact information.
+- Purchase history.
+- Customer categories.
+- Loyalty points.
+- Customer-specific pricing.
+- Credit history.
+- Customer complaints.
+- Reminders.
+- Consent-based marketing messages.
+
+# 6. Industry-Specific Modules
+
+The system must activate industry-specific features based on the business type.
+
+## 6.1 Kiryana and General Store
+
+- Daily retail billing.
+- Loose-item sales.
+- Weight-based products.
+- Barcode scanning.
+- Multiple units.
+- Customer khata.
+- Supplier purchases.
+- Expiry management.
+- Fast-moving product analysis.
+- Low-stock alerts.
+- Daily profit report.
+
+## 6.2 Wholesale and Distribution
+
+- Bulk billing.
+- Retailer and distributor accounts.
+- Different wholesale price levels.
+- Minimum order quantities.
+- Credit limits.
+- Large inventory.
+- Multiple warehouses.
+- Stock transfers.
+- Sales representatives.
+- Delivery management.
+- Retailer ordering portal.
+- Supplier comparison.
+- Outstanding payment reports.
+
+## 6.3 Pharmacy and Medical Store
+
+- Medicine brand and generic name.
+- Medicine category.
+- Batch numbers.
+- Manufacturing and expiry dates.
+- Near-expiry notifications.
+- Expired medicine blocking rules.
+- Purchase and sales history.
+- Supplier information.
+- Prescription attachment with restricted access.
+- Medicine stock reports.
+- Returns and damaged stock.
+
+Prescription and patient information must be treated as sensitive data. Access must be permission-controlled.
+
+The platform must not independently diagnose patients or recommend prescription medicines.
+
+## 6.4 Electronics and Mobile Shop
+
+- IMEI tracking.
+- Serial numbers.
+- Product warranty.
+- Warranty expiry alerts.
+- Repair records.
+- Service history.
+- Used-device inventory.
+- Accessories management.
+- Customer device history.
+- Device exchange.
+- Installment records.
+
+## 6.5 Clothing and Garments
+
+- Size variations.
+- Color variations.
+- Design and style codes.
+- Seasonal inventory.
+- SKU generation.
+- Product photos.
+- Exchange management.
+- Discount campaigns.
+- Size-wise stock.
+- Best-selling designs.
+- Profit by product variant.
+
+## 6.6 Restaurant and Cafe
+
+- Dine-in orders.
+- Takeaway orders.
+- Delivery orders.
+- Table management.
+- Digital menu.
+- Kitchen Display System.
+- Order queue.
+- Recipe management.
+- Ingredient consumption.
+- Food costing.
+- Wastage tracking.
+- Staff management.
+- Daily sales and profit reports.
+- Delivery integration where supported.
+
+## 6.7 Additional industry packs
+
+Architecture must support future modules:
+
+- Hardware and sanitary.
+- Auto parts.
+- Cosmetics.
+- Stationery.
+- Bookshops.
+- Furniture.
+- Agriculture supply.
+- Building materials.
+- Salons and services.
+- E-commerce sellers.
+- Manufacturing.
+- Repair and maintenance services.
+
+New modules should be configurable and deployable without rebuilding the entire platform.
+
+# 7. AI Voice Assistant — Core Product Feature
+
+## 7.1 Purpose
+
+The AI assistant must make business management accessible to users who cannot comfortably type, read complex reports or operate traditional accounting software.
+
+The assistant must work through both voice and text.
+
+## 7.2 Language support
+
+Planned languages:
+
+- Urdu.
+- Roman Urdu.
+- English.
+- Punjabi.
+- Pashto.
+- Sindhi.
+- Other regional languages in future releases.
+
+Language support must be tested with real users before being advertised as fully supported.
+
+## 7.3 Voice command examples
+
+A shopkeeper can say:
+
+- "Aaj Ali ne do hazaar rupay diye."
+- "Paanch kilo cheeni sale karo."
+- "Mera aaj ka munafa batao."
+- "Kitna stock baqi hai?"
+- "Kis customer ka udhaar pending hai?"
+- "Kal ki total sale batao."
+- "Mujhe 20 cartons order karne hain."
+- "Is customer ka account dikhao."
+
+## 7.4 Voice assistant workflow
+
+1. User presses the microphone.
+2. System records the voice command with permission.
+3. Speech recognition converts voice into text.
+4. AI identifies the intent.
+5. System identifies the product, customer, amount or action.
+6. System prepares the transaction.
+7. Assistant reads the details aloud.
+8. User confirms or cancels.
+9. System records the transaction.
+10. Business records and reports update.
+
+## 7.5 Financial safety
+
+Never silently record an uncertain financial transaction.
+
+For example:
+
+User: "Ali ne teen hazaar diye."
+
+Assistant: "Ali ke account mein Rs. 3,000 payment receive record kar doon?"
+
+User confirms.
+
+The system then saves the transaction.
+
+Voice recordings and transcripts must follow privacy and retention settings. Users should be able to disable recording history where appropriate.
+
+## 7.6 AI assistant capabilities
+
+- Create a sale.
+- Record a payment.
+- Add an expense.
+- Search products.
+- Check stock.
+- Check customer balance.
+- Generate reports.
+- Find overdue accounts.
+- Prepare purchase orders.
+- Explain business performance.
+- Read reports aloud.
+- Guide new users.
+
+Money transfers, refunds, irreversible changes and sensitive operations must require explicit approval.
+
+# 8. AI Intelligence and Agent System
+
+The system should use specialized AI services or agents with clearly defined permissions.
+
+| AI Agent | Responsibility |
+|---|---|
+| Voice Agent | Understand voice and language |
+| Transaction Agent | Prepare and validate transactions |
+| Inventory Agent | Analyze stock and shortages |
+| Finance Agent | Analyze income, expenses and cash flow |
+| Khata Agent | Monitor customer credit |
+| Supplier Agent | Compare suppliers and prices |
+| Forecast Agent | Estimate demand and stock needs |
+| Fraud Detection Agent | Flag suspicious activity |
+| Customer Agent | Analyze customer buying patterns |
+| Report Agent | Generate understandable reports |
+| Compliance Agent | Identify configured compliance requirements |
+
+## 8.1 Predictive intelligence
+
+Examples:
+
+- Predict stock shortages.
+- Identify slow-moving inventory.
+- Estimate upcoming cash requirements.
+- Identify unusual discounts.
+- Detect repeated refunds.
+- Highlight unexpected expenses.
+- Predict seasonal demand.
+- Compare supplier prices.
+- Identify declining sales.
+
+AI predictions must show their confidence, assumptions and data period.
+
+## 8.2 AI recommendation approval
+
+Example:
+
+"Your sugar stock may run out in three days. I recommend purchasing 10 bags."
+
+The AI may prepare a purchase order, but the owner must approve it before submission.
+
+# 9. Online and Offline Architecture
+
+## 9.1 Offline-first operation
+
+The application must continue working during internet outages.
+
+Offline features:
+
+- POS billing.
+- Cash sales.
+- Customer khata.
+- Expense entry.
+- Inventory updates.
+- Product search.
+- Customer records.
+- Receipt generation.
+- Local reports based on synchronized and local data.
+
+## 9.2 Online features
+
+When internet is available:
+
+- Cloud synchronization.
+- Online payments.
+- Multi-branch updates.
+- Cloud backups.
+- AI services.
+- Payment verification.
+- Remote owner dashboard.
+- Digital invoices.
+- Online ordering.
+
+## 9.3 Synchronization system
+
+Use:
+
+- Local encrypted database.
+- Unique transaction IDs.
+- Event-based synchronization.
+- Retry queue.
+- Duplicate transaction prevention.
+- Conflict detection.
+- Sync status.
+- Failed-sync alerts.
+- Recovery after application restart.
+
+Financial records must never be silently overwritten using simple last-write-wins synchronization.
+
+The system must maintain transaction history and audit trails.
+
+## 9.4 Important payment limitation
+
+Offline accounting and cash transactions can work without internet.
+
+However, actual online bank, Raast, card, JazzCash or Easypaisa settlement cannot be confirmed without the relevant payment provider's response.
+
+An offline payment request must remain pending until confirmed by the provider. Never display an unverified payment as successfully received.
+
+# 10. Digital Payments
+
+## 10.1 Payment methods
+
+Planned integrations, subject to provider approval and technical availability:
+
+- Raast P2M QR.
+- Supported bank transfers.
+- JazzCash merchant integration.
+- Easypaisa merchant integration.
+- Card payment gateways.
+- Payment links.
+- Supported digital wallets.
+- Cash and split payments.
+
+## 10.2 Payment features
+
+- Generate payment requests.
+- Static and dynamic QR support where available.
+- Payment status.
+- Payment reference.
+- Customer invoice.
+- Payment confirmation.
+- Refund workflow.
+- Reconciliation.
+- Settlement reports.
+- Failed payment handling.
+
+Only authorized providers should process and settle customer payments. KAROBAR SAATHI AI must not claim to be a bank or payment service provider unless it obtains the required authorization.
+
+# 11. Multi-Branch and Employee Management
+
+## 11.1 Branch management
+
+- Create branches.
+- Assign branch managers.
+- Branch-wise stock.
+- Branch-wise sales.
+- Branch transfers.
+- Branch expenses.
+- Branch profit.
+- Consolidated reports.
+
+## 11.2 Employee roles
+
+- Owner.
+- Super Admin.
+- Business Admin.
+- Branch Manager.
+- Accountant.
+- Cashier.
+- Inventory Manager.
+- Salesperson.
+- Delivery Staff.
+- Auditor.
+- Custom roles.
+
+## 11.3 Permission management
+
+Business owners must control permissions for:
+
+- View sales.
+- Create sales.
+- Edit sales.
+- Delete or reverse transactions.
+- View profit.
+- Manage stock.
+- Manage suppliers.
+- Manage customers.
+- Access reports.
+- Export data.
+- Manage employees.
+- Approve refunds.
+
+Sensitive actions must be recorded in the audit log.
+
+# 12. Complete Super Admin Dashboard
+
+This is a critical part of the product.
+
+The platform owner must have a centralized administration panel to manage the entire SaaS platform.
+
+## 12.1 Super Admin Dashboard Overview
+
+Dashboard cards:
+
+- Total registered businesses.
+- Active businesses.
+- Suspended businesses.
+- New registrations.
+- Total branches.
+- Active subscriptions.
+- Expired subscriptions.
+- Monthly recurring revenue.
+- Payment provider status.
+- Active users.
+- AI usage.
+- Storage usage.
+- Synchronization failures.
+- Support requests.
+- System health.
+
+## 12.2 Business and Tenant Management
+
+Super Admin can:
+
+- View registered businesses.
+- Approve or reject registrations where approval is required.
+- Activate or suspend businesses.
+- Change subscription plans.
+- Enable or disable modules.
+- Set usage limits.
+- View business category.
+- Manage platform-level settings.
+- Review technical support status.
+- View non-sensitive operational metadata.
+
+Tenant financial records must remain private by default. Super Admin must not have unrestricted access to private business transactions.
+
+Any exceptional support access must be time-limited, authorized, audited and disclosed according to policy.
+
+## 12.3 Industry Module Management
+
+Admin can:
+
+- Add new industry modules.
+- Edit module details.
+- Activate or deactivate modules.
+- Assign modules to plans.
+- Configure module permissions.
+- Configure default settings.
+- Publish module updates.
+- Set optional add-on prices.
+
+## 12.4 Subscription Management
+
+Admin controls:
+
+- Starter plan.
+- Business plan.
+- Professional plan.
+- Enterprise plan.
+- Monthly subscriptions.
+- Annual subscriptions.
+- Free trials.
+- Discounts.
+- Coupons.
+- Add-ons.
+- Branch limits.
+- User limits.
+- AI usage limits.
+- Storage limits.
+- Subscription expiry.
+- Renewal settings.
+
+Users must retain reasonable access to export their own business data if a subscription expires or is cancelled.
+
+## 12.5 Payment Administration
+
+- Configure supported providers.
+- Configure merchant credentials securely.
+- Monitor payment integration status.
+- View platform subscription payments.
+- Reconciliation reports.
+- Failed transaction reports.
+- Refund permissions.
+- Provider error logs.
+- Settlement status where available.
+
+Never expose payment secrets in the frontend or ordinary admin screens.
+
+# 13. Complete Website CMS and Visual Admin Control
+
+**The website must be editable from the Super Admin Dashboard without requiring a developer to change code for ordinary content and design updates.**
+
+## 13.1 Website Page Management
+
+Admin can:
+
+- Add pages.
+- Edit pages.
+- Delete pages.
+- Publish or unpublish pages.
+- Change page titles.
+- Change descriptions.
+- Edit content.
+- Manage SEO fields.
+- Set page visibility.
+- Reorder sections.
+
+Default pages:
+
+- Home.
+- About Us.
+- Features.
+- Industry Solutions.
+- Pricing.
+- AI Assistant.
+- Payments.
+- Contact.
+- Help Center.
+- FAQ.
+- Privacy Policy.
+- Terms and Conditions.
+
+## 13.2 Hero Section Management
+
+Admin must control:
+
+- Hero title.
+- Subtitle.
+- Description.
+- Main image.
+- Background image.
+- Video where supported.
+- CTA text.
+- CTA links.
+- Image positioning.
+- Section visibility.
+- Background colors.
+- Animation settings.
+- Display order.
+
+## 13.3 Image and Media Manager
+
+Create a centralized professional media library.
+
+Admin can upload, preview, replace, edit metadata, organize and delete:
+
+- Website logo.
+- Mobile logo.
+- Favicon.
+- Dashboard logo.
+- Login-page logo.
+- Hero images.
+- Industry images.
+- Feature images.
+- AI assistant illustrations.
+- Payment-provider logos.
+- Partner logos.
+- Team images.
+- Blog images.
+- App screenshots.
+- Promotional banners.
+- Footer images.
+- Social media images.
+
+Media must be organized into categories and folders, not mixed into one unstructured gallery.
+
+Each media item should include:
+
+- File name.
+- Category.
+- Preview.
+- File type.
+- Dimensions.
+- Upload date.
+- Alt text.
+- Usage reference.
+- Replace option.
+- Delete option.
+
+Prevent accidental deletion of media that is still being used on a live page, unless an authorized replacement or confirmation is provided.
+
+## 13.4 Theme and Color Management
+
+Admin can manage:
+
+- Primary color.
+- Secondary color.
+- Accent color.
+- Background color.
+- Text color.
+- Heading color.
+- Button colors.
+- Button hover colors.
+- Header colors.
+- Navbar colors.
+- Footer colors.
+- Card backgrounds.
+- Border colors.
+- Light theme.
+- Dark theme.
+
+Provide a live preview before publishing.
+
+## 13.5 Typography and Font Management
+
+Admin can configure:
+
+- Heading font.
+- Body font.
+- Urdu font.
+- Button font.
+- Navigation font.
+- Font sizes.
+- Font weights.
+- Line heights.
+- Letter spacing.
+
+Only approved and safely loaded fonts should be allowed. Support Urdu typography without breaking English layouts.
+
+## 13.6 Header and Navigation Management
+
+Admin can:
+
+- Change logo.
+- Change navbar background.
+- Change navigation text colors.
+- Add menu items.
+- Edit menu items.
+- Remove menu items.
+- Reorder navigation.
+- Add dropdown menus.
+- Configure mobile navigation.
+- Change header CTA buttons.
+- Enable or disable sticky header.
+
+## 13.7 Footer Management
+
+Admin can:
+
+- Change footer logo.
+- Upload partner logos.
+- Edit company description.
+- Add social media links.
+- Add contact details.
+- Edit address.
+- Add footer columns.
+- Add useful links.
+- Edit copyright text.
+- Change footer background and text colors.
+
+## 13.8 Global Design Control
+
+Admin must be able to configure reusable design tokens rather than editing each page independently.
+
+Changes must have:
+
+- Preview mode.
+- Save draft.
+- Publish changes.
+- Version history.
+- Rollback.
+- Audit log.
+
+## 13.9 Banner and Announcement Management
+
+- Create promotional banners.
+- Schedule start and end dates.
+- Set target audience.
+- Add announcement text.
+- Upload banner image.
+- Add CTA links.
+- Enable or disable banners.
+
+# 14. Admin-Controlled Application Settings
+
+The Super Admin must also control application-level configuration.
+
+## 14.1 General Settings
+
+- Platform name.
+- Logo.
+- Contact information.
+- Default language.
+- Default currency.
+- Timezone.
+- Registration settings.
+- Maintenance mode.
+- Notification settings.
+- Support information.
+
+## 14.2 AI Settings
+
+- Enable or disable AI features.
+- Configure available AI providers.
+- Configure model selection.
+- Set usage limits.
+- Configure language availability.
+- Configure speech-to-text services.
+- Configure text-to-speech services.
+- Configure AI cost limits.
+- View AI error logs.
+- Monitor AI performance.
+
+AI provider credentials must be stored securely and never exposed to users.
+
+## 14.3 Notification Management
+
+- SMS provider settings.
+- Email provider settings.
+- Push notification settings.
+- WhatsApp integrations where approved.
+- Notification templates.
+- Payment alerts.
+- Subscription alerts.
+- Stock alerts.
+- Security alerts.
+
+## 14.4 Security and Access Control
+
+- Admin roles.
+- Permission groups.
+- Multi-factor authentication.
+- Login history.
+- Active sessions.
+- Account lockouts.
+- Audit logs.
+- API access management.
+- Security alerts.
+- Backup and restore policies.
+
+# 15. Business Owner Dashboard
+
+Each business must have its own isolated dashboard.
+
+Main sections:
+
+1. Overview.
+2. POS.
+3. Sales.
+4. Purchases.
+5. Inventory.
+6. Khata.
+7. Customers.
+8. Suppliers.
+9. Expenses.
+10. Accounting.
+11. Payments.
+12. AI Assistant.
+13. Reports.
+14. Employees.
+15. Branches.
+16. Settings.
+17. Subscription.
+18. Help and Support.
+
+The owner must control their own business information, users, permissions, inventory, prices, settings and operational records.
+
+# 16. Mobile Application
+
+Build Android and iOS applications.
+
+Required features:
+
+- Business registration.
+- Owner dashboard.
+- Mobile POS.
+- Barcode scanning.
+- Voice assistant.
+- Customer khata.
+- Inventory.
+- Expense management.
+- Payment requests.
+- Notifications.
+- Offline transactions.
+- Cloud synchronization.
+- Reports.
+- Branch management.
+
+The mobile application should be optimized for low-cost Android devices commonly used by small businesses.
+
+# 17. Commercial SaaS Business Model
+
+The product should support subscription revenue and optional paid add-ons.
+
+Illustrative proposed plans — final prices must be validated through customer research.
+
+| Plan | Proposed price | Target |
+|---|---:|---|
+| Starter | Rs. 499/month | Small shops |
+| Business | Rs. 999/month | Growing businesses |
+| Professional | Rs. 1,999/month | Advanced operations |
+| Enterprise | Custom | Large businesses |
+
+Potential paid add-ons:
+
+- Additional branches.
+- Additional employees.
+- Advanced AI usage.
+- Voice assistant packages.
+- Advanced analytics.
+- B2B ordering.
+- Advanced delivery management.
+- Extra storage.
+- Custom integrations.
+
+The Super Admin must be able to change pricing, plan limits and features without code changes.
+
+# 18. Technical Architecture
+
+## 18.1 Recommended Stack
+
+| Layer | Recommended technology |
+|---|---|
+| Web frontend | React / Next.js |
+| Mobile app | React Native |
+| Backend API | Python FastAPI |
+| Main database | PostgreSQL |
+| Offline database | SQLite |
+| Cache and queues | Redis |
+| AI services | Python AI services |
+| AI orchestration | LangGraph or controlled agent workflows |
+| Speech recognition | Urdu-capable ASR provider |
+| Text-to-speech | Supported multilingual TTS |
+| File storage | S3-compatible object storage |
+| Realtime updates | WebSockets |
+| Deployment | Docker and cloud infrastructure |
+| Monitoring | Centralized logs and metrics |
+
+Technology choices may change based on team skills, costs, provider availability and performance testing.
+
+## 18.2 Multi-Tenant Architecture
+
+Every business must have a unique tenant identity.
+
+All business-owned records must be associated with the correct tenant.
+
+Examples:
+
+- tenant_id.
+- branch_id.
+- user_id.
+- transaction_id.
+- product_id.
+
+Security rules must prevent one business from accessing another business's data.
+
+Use database-level controls and authorization checks, not only frontend restrictions.
+
+## 18.3 Core Database Entities
+
+Suggested database groups:
+
+**Identity and access**
+- users
+- tenants
+- tenant_users
+- roles
+- permissions
+- role_permissions
+- branches
+- sessions
+
+**Business and configuration**
+- business_profiles
+- industry_modules
+- tenant_modules
+- subscriptions
+- plans
+- feature_limits
+- settings
+
+**Products and inventory**
+- products
+- product_variants
+- categories
+- units
+- barcodes
+- warehouses
+- stock_movements
+- stock_batches
+- stock_transfers
+
+**Sales and purchasing**
+- sales
+- sale_items
+- sale_returns
+- purchases
+- purchase_items
+- purchase_returns
+- suppliers
+- customers
+
+**Finance**
+- accounts
+- ledger_entries
+- expenses
+- payments
+- payment_allocations
+- cash_sessions
+- reconciliation_records
+
+**AI**
+- ai_commands
+- ai_recommendations
+- ai_usage
+- voice_transcripts
+- ai_approval_requests
+
+**Platform administration**
+- admin_users
+- audit_logs
+- support_tickets
+- system_notifications
+- integration_settings
+
+**CMS and media**
+- pages
+- page_sections
+- media_assets
+- navigation_items
+- theme_settings
+- banners
+- footer_settings
+- design_versions
+
+Use proper foreign keys, indexes, tenant isolation, financial integrity and retention policies.
+
+# 19. Security, Privacy and Reliability
+
+Mandatory requirements:
+
+- Encryption in transit.
+- Encryption at rest.
+- Secure password hashing.
+- Multi-factor authentication for privileged accounts.
+- Role-based access control.
+- Tenant-level data isolation.
+- Audit trails.
+- Secure file uploads.
+- Malware and file-type validation.
+- Rate limiting.
+- Backup and recovery.
+- Session management.
+- Secure API authentication.
+- Payment credential protection.
+- Privacy and data-retention controls.
+
+Financial transactions should be append-only or corrected through traceable reversal and adjustment records rather than silently overwritten.
+
+The platform must follow applicable Pakistani laws and relevant payment-provider requirements. Tax and regulatory requirements must be configurable and verified with qualified professionals.
+
+# 20. Reports and Analytics
+
+Reports must be available by business, branch, date and authorized user.
+
+Required reports:
+
+- Daily sales.
+- Monthly sales.
+- Profit and loss.
+- Cash flow.
+- Expenses.
+- Customer balances.
+- Supplier balances.
+- Inventory valuation.
+- Low-stock products.
+- Expiry reports.
+- Best-selling products.
+- Slow-moving products.
+- Employee performance.
+- Branch comparison.
+- Payment reconciliation.
+- Subscription usage.
+
+Reports must support PDF and Excel exports with appropriate permissions.
+
+# 21. User Interface and Experience
+
+Design principles:
+
+- Modern professional SaaS design.
+- Simple navigation.
+- Mobile-first responsive layouts.
+- Clear dashboards.
+- Large touch-friendly controls.
+- Easy Urdu and English support.
+- Voice-first accessibility.
+- Minimal unnecessary typing.
+- Consistent icons.
+- Clear financial figures.
+- Accessible color contrast.
+- Helpful empty states.
+- Clear error messages.
+- Confirmation before destructive actions.
+
+Provide a consistent design system across the marketing website, business dashboard, admin dashboard and mobile application.
+
+# 22. Non-Functional Requirements
+
+| Requirement | Target |
+|---|---|
+| Availability | Design for high availability |
+| Offline POS | Continue without internet |
+| Sync integrity | No silent financial data loss |
+| Security | Strong tenant isolation |
+| Performance | Fast common billing operations |
+| Scalability | Support growth in tenants and branches |
+| Recovery | Tested backups and restore |
+| Accessibility | Voice and simple visual workflows |
+| Compatibility | Common Android devices and modern browsers |
+| Auditability | Traceable financial and admin changes |
+
+Actual performance targets should be finalized after load testing and pilot deployment.
+
+# 23. Development Roadmap
+
+## Phase 1 — Universal Foundation
+
+- Authentication.
+- Business registration.
+- Multi-tenant architecture.
+- Business owner dashboard.
+- Employee roles.
+- Product management.
+- Inventory.
+- POS.
+- Customer khata.
+- Expenses.
+- Basic accounting.
+- Offline database.
+- Synchronization.
+
+## Phase 2 — Industry Modules
+
+Build and validate:
+
+1. Kiryana.
+2. Wholesale.
+3. Pharmacy.
+
+Prepare the architecture for electronics, clothing and restaurant modules.
+
+## Phase 3 — AI Features
+
+- Voice assistant.
+- Urdu speech recognition.
+- Text-to-speech.
+- AI transaction preparation.
+- Business reports.
+- Inventory recommendations.
+- Cash flow analysis.
+- Anomaly detection.
+
+## Phase 4 — Payments
+
+- Payment provider sandbox.
+- Raast integration through approved arrangements.
+- Supported wallet and bank integrations.
+- Payment verification.
+- Reconciliation.
+- Refund workflow.
+
+## Phase 5 — Remaining Industries
+
+- Electronics.
+- Clothing.
+- Restaurants.
+- Hardware.
+- Auto parts.
+- Services.
+- Manufacturing.
+
+## Phase 6 — Complete SaaS Administration
+
+- Super Admin.
+- Subscription management.
+- CMS.
+- Media manager.
+- Theme manager.
+- Module configuration.
+- AI configuration.
+- Support center.
+- Monitoring and audit logs.
+
+## Phase 7 — Commercial Launch
+
+- Pilot businesses.
+- Customer feedback.
+- Security testing.
+- Load testing.
+- Payment-provider certification.
+- Documentation.
+- Pricing validation.
+- Public launch.
+
+# 24. Testing and Acceptance Criteria
+
+The product is not ready for commercial release until these tests pass:
+
+1. Multiple independent businesses can register.
+2. Each business can only access its own data.
+3. Different industries receive the correct modules.
+4. A shopkeeper can create and complete a sale offline.
+5. Offline transactions synchronize without duplication.
+6. Financial records remain correct after synchronization.
+7. Voice commands correctly identify supported transactions.
+8. Uncertain financial commands require confirmation.
+9. Online payments show success only after provider confirmation.
+10. Inventory changes correctly after sales and returns.
+11. Admin can create and configure industry modules.
+12. Admin can change website logos, images, colors and fonts.
+13. Admin can publish website content without code changes.
+14. Business owners can manage employee permissions.
+15. Subscription limits work correctly.
+16. Backups can be restored.
+17. Audit logs record important actions.
+18. Mobile and web applications work on supported devices.
+
+# 25. Product Differentiation
+
+KAROBAR SAATHI AI should not compete only as another digital khata application.
+
+Its differentiation must be demonstrated through measurable capabilities:
+
+- One platform for multiple industries.
+- Offline-first POS and accounting.
+- Voice-first business management.
+- AI-powered business recommendations.
+- Industry-specific workflows.
+- Multi-branch management.
+- B2B wholesale ordering.
+- Payment reconciliation.
+- Centralized configurable SaaS administration.
+- A professional and accessible experience for low-literacy users.
+
+The product should be tested against existing Pakistani bookkeeping and POS products. Do not claim to be better than every competitor until independent feature, usability, reliability and pricing comparisons support that claim.
+
+# 26. Final Product Vision
+
+**KAROBAR SAATHI AI — Har Karobar Ka Digital Saathi**
+
+A Pakistani business owner should be able to open one application, speak in their own language, manage their shop, track sales, check inventory, receive payments, understand profits and make better business decisions.
+
+A small shop and a large distribution company should both be able to use the same platform, with the modules and permissions appropriate to their operations.
+
+The system must be designed as a long-term commercial SaaS platform, not just a basic college project or a single-shop billing application.
+
+**Final principle:** One platform. Multiple industries. Online and offline operations. AI-powered assistance. Complete business-owner control. Centralized platform administration.

@@ -1,0 +1,6 @@
+{
+  "name": "Karobar Saathi AI",
+  "description": "Har Karobar Ka Digital Saathi — Universal AI Business Operating System with POS Billing, Digital Khata, Inventory, Accounting, Offline-First Sync, Urdu Voice Assistant, Industry Modules, and Super Admin CMS.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

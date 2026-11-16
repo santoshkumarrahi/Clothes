@@ -1,0 +1,176 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+    --font-body: 'Plus Jakarta Sans', 'DM Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  body {
+    font-family: var(--font-body);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    background-color: #FAF8F5;
+    color: #141413;
+  }
+
+  h1, h2, h3, .font-serif-editorial {
+    font-family: var(--font-display);
+  }
+
+  .font-display {
+    font-family: 'Plus Jakarta Sans', 'DM Sans', system-ui, sans-serif;
+  }
+
+  .font-mono, .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.urdu-text {
+  font-family: 'Noto Sans Arabic', 'DM Sans', sans-serif;
+}
+
+/* Subtle custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 113, 108, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(120, 113, 108, 0.45);
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}
+
+/* Marquee Announcements */
+@keyframes ts-marquee-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes ts-marquee-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.ts-marquee-track-left {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: ts-marquee-left var(--ts-marquee-duration, 26s) linear infinite;
+}
+
+.ts-marquee-track-right {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: ts-marquee-right var(--ts-marquee-duration, 26s) linear infinite;
+}
+
+.ts-marquee-wrapper:hover .ts-marquee-track-left,
+.ts-marquee-wrapper:hover .ts-marquee-track-right {
+  animation-play-state: paused;
+}
+
+/* Theme-aware buttons, links & card animations */
+.ts-btn-primary {
+  background-color: var(--ts-btn-primary-bg, #141413);
+  color: var(--ts-btn-text, #FFFFFF);
+  font-family: var(--ts-btn-font, var(--font-body));
+  font-size: var(--ts-btn-size, 12px);
+  font-weight: var(--ts-btn-weight, 700);
+  letter-spacing: var(--ts-btn-ls, 0.06em);
+  text-transform: var(--ts-btn-transform, uppercase);
+  transition: background-color var(--ts-btn-duration, 180ms) ease, transform var(--ts-btn-duration, 180ms) ease;
+}
+
+.ts-btn-primary:hover:not(:disabled) {
+  background-color: var(--ts-btn-primary-hover, #9E2A2B);
+}
+
+.ts-btn-primary-lift:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.ts-nav-link {
+  font-family: var(--ts-nav-font, var(--font-body));
+  font-size: var(--ts-nav-size, 12px);
+  font-weight: var(--ts-nav-weight, 500);
+  letter-spacing: var(--ts-nav-ls, 0.02em);
+  text-transform: var(--ts-nav-transform, none);
+  color: var(--ts-navbar-text, #141413);
+}
+
+.ts-nav-link:hover {
+  color: var(--ts-navbar-hover, #9E2A2B);
+}
+
+.ts-nav-link-active {
+  color: var(--ts-navbar-active, #9E2A2B);
+  font-weight: 700;
+}
+
+.ts-footer-link {
+  color: var(--ts-footer-links, #D8D0C4);
+  transition: color 150ms ease;
+}
+
+.ts-footer-link:hover {
+  color: var(--ts-footer-link-hover, #FFFFFF);
+  text-decoration: underline;
+}
+
+.ts-card-lift {
+  transition: transform var(--ts-card-duration, 250ms) ease, box-shadow var(--ts-card-duration, 250ms) ease, border-color var(--ts-card-duration, 250ms) ease;
+}
+
+.ts-card-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 34px -12px rgba(20, 20, 19, 0.16);
+}
+
+.ts-card-scale {
+  transition: transform var(--ts-card-duration, 250ms) ease, box-shadow var(--ts-card-duration, 250ms) ease;
+}
+
+.ts-card-scale:hover {
+  transform: scale(1.015);
+  box-shadow: 0 14px 34px -12px rgba(20, 20, 19, 0.14);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ts-marquee-track-left,
+  .ts-marquee-track-right {
+    animation: none !important;
+  }
+  .ts-card-lift:hover,
+  .ts-card-scale:hover,
+  .ts-btn-primary-lift:hover {
+    transform: none !important;
+  }
+}
+
